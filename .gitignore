@@ -1,0 +1,12 @@
+.venv/
+.idea/
+__pycache__/
+
+images/
+images_small/
+uploads/
+
+embeddings.pkl
+filenames.pkl
+
+*.pyc

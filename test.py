@@ -26,7 +26,7 @@ preprocessed_img = preprocess_input(expanded_img_array)
 result = model.predict(preprocessed_img).flatten()
 normalized_result = result / norm(result)
 
-neighbors = NearestNeighbors(n_neighbors=6,algorithm='brute',metric='euclidean')
+neighbors = NearestNeighbors(n_neighbors=6,algorithm='brute',metric='cosine')
 neighbors.fit(feature_list)
 
 distances,indices = neighbors.kneighbors([normalized_result])

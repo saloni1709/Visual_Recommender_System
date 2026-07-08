@@ -27,7 +27,7 @@ model = tensorflow.keras.Sequential([
     GlobalMaxPooling2D()
 ])
 
-st.title("Visual Recommender System")
+st.title("Visual Product Recommender System")
 
 
 # Save Uploaded Image

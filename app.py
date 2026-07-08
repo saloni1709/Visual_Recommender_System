@@ -34,7 +34,7 @@ def extract_features(img_path, model):
 filenames = []
 
 for file in os.listdir('images_small'):
-    filenames.append(os.path.join('images_small', file))
+    filenames.append(f"images_small/{file}")
 
 print(f"Total Images Found: {len(filenames)}")
 

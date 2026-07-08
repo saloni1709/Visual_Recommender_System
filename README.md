@@ -51,8 +51,11 @@ Visual_Product_Recommender_System/
 ├── main.py
 ├── test.py
 ├── generate_embeddings.py
+├── embeddings.pkl
+├── filenames.pkl
 ├── requirements.txt
 ├── Output.png
+├── README.md
 └── .gitignore
 ```
 
